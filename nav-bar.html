@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+
+	<style>
+		ul {
+			/* Get rid of the bullet points on our list items */
+			list-style:none;
+			/* Set a background color */
+			background-color: #333; /* #333333 */
+			/* Force children to send height up to me */
+			overflow:hidden;
+			/* Set a position of 'fixed' so when user scrolls - i stay visible */
+			position:fixed;
+			/* Now that it's fixed I need a set width */
+			width:100%;
+			/* Set the starting point for nav bar */
+			top:0px;
+			left:0px;
+			/* Force ul to start with 0 padding and 0 pixels so browser doesn't interfere */
+			padding: 0px;
+			margin: 0px;
+			
+		}
+		.menu-item {
+			/* Put the list items next to each other and set text color to white */
+			float: left;
+			color: white;
+			/* Set the padding */
+			padding: 14px 16px;
+		}
+
+		/* Target the element with both classes(menu-item and about) */
+		.menu-item.about {
+			/* Greenish background color */
+			background-color: #4caf50;
+			/* Float element to right of parent */
+			float:right;
+		}
+
+
+		/* We need to set a hover background color */
+		.menu-item:hover {
+			background-color: #777;
+		}
+		#content {
+			width:50%;
+			margin:auto;
+			height:150vh;
+
+
+		}
+
+	</style>
+</head>
+<body>
+
+
+
+<header>
+	<ul>
+		<li class="menu-item">Home</li>
+		<li class="menu-item">News</li>
+		<li class="menu-item">Contact</li>
+		<li class="menu-item about">About</li>
+	<ul>
+</header>
+
+<div id="content">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sunt quia doloribus, eos quasi voluptatum deserunt alias qui assumenda ullam consectetur, facere, eum hic laboriosam dolore eius illo. Repudiandae, laudantium.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sunt quia doloribus, eos quasi voluptatum deserunt alias qui assumenda ullam consectetur, facere, eum hic laboriosam dolore eius illo. Repudiandae, laudantium.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sunt quia doloribus, eos quasi voluptatum deserunt alias qui assumenda ullam consectetur, facere, eum hic laboriosam dolore eius illo. Repudiandae, laudantium.
+</div>
+
+
+
+</body>
+</html>

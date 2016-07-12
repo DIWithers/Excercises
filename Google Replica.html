@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Replica</title>
+	<style>
+
+.menu-bar {
+	margin:auto;
+	display:block;
+}
+
+.logo {
+	position:absolute;
+	top: 200px;
+	left:800px;
+	background-color: white;
+	
+}
+.bar {
+	font-family:Arial;
+	display: inline-block;
+	position:absolute;
+	width: 500px;
+	height: 40px;
+	top: 320px;
+	left:675px;
+	border: 1px solid grey;
+
+}
+.buttons {
+	font-family: Arial;
+	color: grey;
+	float: left;
+	left:660px;
+	top:320px;
+	background-color: #eee;
+	position: relative;
+	margin: 40px;
+	padding: 10px;
+}
+
+.mic {
+	display:inline-block;
+	float:right; 
+	margin-bottom: 30px;
+	width:30px;
+	vertical-align: middle;
+
+}
+
+		
+ul {
+	float:right;
+	position:fixed;
+	list-style: none;
+	width:95%;
+
+	
+}
+li.menu {
+	float: right;
+	padding: 10px;
+	font-family: Arial;
+}
+
+.one {
+	background-color: #4285f4;
+	color: white;
+}
+.dots {
+	padding-bottom:50px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="menu-bar">
+<ul>
+	<li class="menu one">Sign In</li>
+	<li class="menu dots"><img src="google-images/google-dots.png"></li>
+	<li class="menu">Images</li> 
+	<li class="menu">Gmail</li>
+</ul>
+</div>
+
+<div><img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+
+<div class="bar">
+	<form>
+	<input type: "text" value="Search Google or type URL" width="1000" height="20">
+	</form>
+	<img class="mic" src="google-images/google-mic.png">
+</div>
+<div>
+	<ul>
+		<li class="buttons">Google Search</li>
+		<li class="buttons">I'm Feeling Lucky</li>
+	</ul>
+</div>
+
+</body>
+</html>

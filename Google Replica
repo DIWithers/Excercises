@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Replica</title>
+	<style>
+		
+ul {
+	float:right;
+	position:fixed;
+	</style>
+}
+</head>
+<body>
+
+<ul>
+	<li>Gmail</li>
+	<li>Images</li>
+	<li></li>
+	<li></li>
+</ul>
+
+</body>
+</html>
